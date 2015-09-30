@@ -1,0 +1,1128 @@
+"src/main.ml" 5 65 69 "src/main.ml" 5 65 74
+type(
+  'a option -> ('a -> 'b option) -> 'b option
+)
+ident(
+  def |>= "src/main.ml" 8 105 105 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 5 65 75 "src/main.ml" 5 65 76
+type(
+  'a option
+)
+ident(
+  def x "src/main.ml" 5 65 77 "src/main.ml" 6 81 103
+)
+"src/main.ml" 5 65 77 "src/main.ml" 5 65 78
+type(
+  'a -> 'b option
+)
+ident(
+  def y "src/main.ml" 6 81 83 "src/main.ml" 6 81 103
+)
+"src/main.ml" 6 81 83 "src/main.ml" 6 81 84
+type(
+  'a option
+)
+ident(
+  int_ref x "src/main.ml" 5 65 75 "src/main.ml" 5 65 76
+)
+"src/main.ml" 6 81 85 "src/main.ml" 6 81 88
+type(
+  'a option -> ('a -> 'b option) -> 'b option
+)
+ident(
+  ext_ref Core.Option.Monad_infix.( >>= )
+)
+"src/main.ml" 6 81 94 "src/main.ml" 6 81 95
+type(
+  'a
+)
+ident(
+  def x "src/main.ml" 6 81 99 "src/main.ml" 6 81 102
+)
+"src/main.ml" 6 81 99 "src/main.ml" 6 81 100
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref y "src/main.ml" 5 65 77 "src/main.ml" 5 65 78
+)
+"src/main.ml" 6 81 101 "src/main.ml" 6 81 102
+type(
+  'a
+)
+ident(
+  int_ref x "src/main.ml" 6 81 94 "src/main.ml" 6 81 95
+)
+"src/main.ml" 6 81 99 "src/main.ml" 6 81 102
+call(
+  tail
+)
+type(
+  'b option
+)
+"src/main.ml" 6 81 94 "src/main.ml" 6 81 102
+type(
+  'a -> 'b option
+)
+"src/main.ml" 6 81 83 "src/main.ml" 6 81 103
+call(
+  tail
+)
+type(
+  'b option
+)
+"src/main.ml" 5 65 77 "src/main.ml" 6 81 103
+type(
+  ('a -> 'b option) -> 'b option
+)
+"src/main.ml" 5 65 75 "src/main.ml" 6 81 103
+type(
+  'a option -> ('a -> 'b option) -> 'b option
+)
+"src/main.ml" 24 359 363 "src/main.ml" 24 359 366
+type(
+  f:(Toml.Table.key -> 'a -> 'b) -> toml_blob:'a -> string -> 'b option
+)
+ident(
+  def get "src/main.ml" 30 461 461 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 24 359 381 "src/main.ml" 24 359 384
+type(
+  string
+)
+ident(
+  def key "src/main.ml" 25 387 389 "src/main.ml" 28 438 459
+)
+"src/main.ml" 26 393 403 "src/main.ml" 26 393 404
+type(
+  Toml.Table.key -> 'a -> 'b
+)
+ident(
+  int_ref f "src/main.ml" 24 359 367 "src/main.ml" 28 438 459
+)
+"src/main.ml" 26 393 406 "src/main.ml" 26 393 414
+type(
+  string -> Toml.Table.key
+)
+ident(
+  ext_ref Toml.key
+)
+"src/main.ml" 26 393 415 "src/main.ml" 26 393 418
+type(
+  string
+)
+ident(
+  int_ref key "src/main.ml" 24 359 381 "src/main.ml" 24 359 384
+)
+"src/main.ml" 26 393 406 "src/main.ml" 26 393 418
+call(
+  stack
+)
+type(
+  Toml.Table.key
+)
+"src/main.ml" 26 393 420 "src/main.ml" 26 393 429
+type(
+  'a
+)
+ident(
+  int_ref toml_blob "src/main.ml" 24 359 370 "src/main.ml" 28 438 459
+)
+"src/main.ml" 26 393 403 "src/main.ml" 26 393 429
+call(
+  stack
+)
+type(
+  'b
+)
+"src/main.ml" 26 393 397 "src/main.ml" 26 393 430
+type(
+  'b option
+)
+"src/main.ml" 28 438 442 "src/main.ml" 28 438 451
+type(
+  exn
+)
+"src/main.ml" 28 438 455 "src/main.ml" 28 438 459
+type(
+  'b option
+)
+"src/main.ml" 25 387 389 "src/main.ml" 28 438 459
+type(
+  'b option
+)
+"src/main.ml" 24 359 381 "src/main.ml" 28 438 459
+type(
+  string -> 'b option
+)
+"src/main.ml" 24 359 370 "src/main.ml" 28 438 459
+type(
+  toml_blob:'a -> string -> 'b option
+)
+type(
+  'a
+)
+ident(
+  def toml_blob "src/main.ml" 24 359 381 "src/main.ml" 28 438 459
+)
+"src/main.ml" 24 359 367 "src/main.ml" 28 438 459
+type(
+  f:(Toml.Table.key -> 'a -> 'b) -> toml_blob:'a -> string -> 'b option
+)
+type(
+  Toml.Table.key -> 'a -> 'b
+)
+ident(
+  def f "src/main.ml" 24 359 370 "src/main.ml" 28 438 459
+)
+"src/main.ml" 30 461 465 "src/main.ml" 30 461 472
+type(
+  toml_blob:Toml.Value.table -> string -> int option
+)
+ident(
+  def get_int "src/main.ml" 31 495 495 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 30 461 475 "src/main.ml" 30 461 478
+type(
+  f:(Toml.Table.key -> Toml.Value.table -> int) ->
+  toml_blob:Toml.Value.table -> string -> int option
+)
+ident(
+  int_ref get "src/main.ml" 24 359 363 "src/main.ml" 24 359 366
+)
+"src/main.ml" 30 461 482 "src/main.ml" 30 461 494
+type(
+  Toml.Table.key -> Toml.Value.table -> int
+)
+ident(
+  ext_ref Toml.get_int
+)
+"src/main.ml" 30 461 475 "src/main.ml" 30 461 494
+call(
+  stack
+)
+type(
+  toml_blob:Toml.Value.table -> string -> int option
+)
+"src/main.ml" 31 495 499 "src/main.ml" 31 495 509
+type(
+  toml_blob:Toml.Value.table -> string -> string option
+)
+ident(
+  def get_string "src/main.ml" 33 536 536 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 31 495 512 "src/main.ml" 31 495 515
+type(
+  f:(Toml.Table.key -> Toml.Value.table -> string) ->
+  toml_blob:Toml.Value.table -> string -> string option
+)
+ident(
+  int_ref get "src/main.ml" 24 359 363 "src/main.ml" 24 359 366
+)
+"src/main.ml" 31 495 519 "src/main.ml" 31 495 534
+type(
+  Toml.Table.key -> Toml.Value.table -> string
+)
+ident(
+  ext_ref Toml.get_string
+)
+"src/main.ml" 31 495 512 "src/main.ml" 31 495 534
+call(
+  stack
+)
+type(
+  toml_blob:Toml.Value.table -> string -> string option
+)
+"src/main.ml" 33 536 540 "src/main.ml" 33 536 554
+type(
+  Toml.Value.table -> config
+)
+ident(
+  def toml_to_config "src/main.ml" 50 897 897 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 33 536 555 "src/main.ml" 33 536 564
+type(
+  Toml.Value.table
+)
+ident(
+  def toml_blob "src/main.ml" 34 567 569 "src/main.ml" 48 892 895
+)
+"src/main.ml" 34 567 573 "src/main.ml" 34 567 578
+type(
+  string -> string option
+)
+ident(
+  def get_s "src/main.ml" 35 606 608 "src/main.ml" 48 892 895
+)
+"src/main.ml" 34 567 581 "src/main.ml" 34 567 591
+type(
+  toml_blob:Toml.Value.table -> string -> string option
+)
+ident(
+  int_ref get_string "src/main.ml" 31 495 499 "src/main.ml" 31 495 509
+)
+"src/main.ml" 34 567 592 "src/main.ml" 34 567 602
+type(
+  Toml.Value.table
+)
+ident(
+  int_ref toml_blob "src/main.ml" 33 536 555 "src/main.ml" 33 536 564
+)
+"src/main.ml" 34 567 581 "src/main.ml" 34 567 602
+call(
+  stack
+)
+type(
+  string -> string option
+)
+"src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+type(
+  string -> int option
+)
+ident(
+  def get_i "src/main.ml" 36 642 644 "src/main.ml" 48 892 895
+)
+"src/main.ml" 35 606 620 "src/main.ml" 35 606 627
+type(
+  toml_blob:Toml.Value.table -> string -> int option
+)
+ident(
+  int_ref get_int "src/main.ml" 30 461 465 "src/main.ml" 30 461 472
+)
+"src/main.ml" 35 606 628 "src/main.ml" 35 606 638
+type(
+  Toml.Value.table
+)
+ident(
+  int_ref toml_blob "src/main.ml" 33 536 555 "src/main.ml" 33 536 564
+)
+"src/main.ml" 35 606 620 "src/main.ml" 35 606 638
+call(
+  stack
+)
+type(
+  string -> int option
+)
+"src/main.ml" 37 646 657 "src/main.ml" 37 646 662
+type(
+  string -> string option
+)
+ident(
+  int_ref get_s "src/main.ml" 34 567 573 "src/main.ml" 34 567 578
+)
+"src/main.ml" 37 646 663 "src/main.ml" 37 646 669
+type(
+  string
+)
+"src/main.ml" 37 646 657 "src/main.ml" 37 646 669
+call(
+  stack
+)
+type(
+  string option
+)
+"src/main.ml" 39 684 698 "src/main.ml" 39 684 703
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 39 684 704 "src/main.ml" 39 684 709
+type(
+  string
+)
+"src/main.ml" 39 684 698 "src/main.ml" 39 684 709
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 40 711 723 "src/main.ml" 40 711 728
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 40 711 729 "src/main.ml" 40 711 734
+type(
+  string
+)
+"src/main.ml" 40 711 723 "src/main.ml" 40 711 734
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 41 736 748 "src/main.ml" 41 736 753
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 41 736 754 "src/main.ml" 41 736 759
+type(
+  string
+)
+"src/main.ml" 41 736 748 "src/main.ml" 41 736 759
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 42 761 773 "src/main.ml" 42 761 778
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 42 761 779 "src/main.ml" 42 761 784
+type(
+  string
+)
+"src/main.ml" 42 761 773 "src/main.ml" 42 761 784
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 43 786 798 "src/main.ml" 43 786 803
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 43 786 804 "src/main.ml" 43 786 809
+type(
+  string
+)
+"src/main.ml" 43 786 798 "src/main.ml" 43 786 809
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 44 811 823 "src/main.ml" 44 811 828
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 44 811 829 "src/main.ml" 44 811 834
+type(
+  string
+)
+"src/main.ml" 44 811 823 "src/main.ml" 44 811 834
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 45 836 848 "src/main.ml" 45 836 853
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 45 836 854 "src/main.ml" 45 836 859
+type(
+  string
+)
+"src/main.ml" 45 836 848 "src/main.ml" 45 836 859
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 46 861 873 "src/main.ml" 46 861 878
+type(
+  string -> int option
+)
+ident(
+  int_ref get_i "src/main.ml" 35 606 612 "src/main.ml" 35 606 617
+)
+"src/main.ml" 46 861 879 "src/main.ml" 46 861 884
+type(
+  string
+)
+"src/main.ml" 46 861 873 "src/main.ml" 46 861 884
+call(
+  stack
+)
+type(
+  int option
+)
+"src/main.ml" 38 671 682 "src/main.ml" 47 886 891
+type(
+  days
+)
+"src/main.ml" 36 642 644 "src/main.ml" 48 892 895
+type(
+  config
+)
+"src/main.ml" 35 606 608 "src/main.ml" 48 892 895
+type(
+  config
+)
+"src/main.ml" 34 567 569 "src/main.ml" 48 892 895
+type(
+  config
+)
+"src/main.ml" 33 536 555 "src/main.ml" 48 892 895
+type(
+  Toml.Value.table -> config
+)
+"src/main.ml" 50 897 901 "src/main.ml" 50 897 911
+type(
+  unit -> config
+)
+ident(
+  def get_config "src/main.ml" 54 980 980 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 50 897 912 "src/main.ml" 50 897 914
+type(
+  unit
+)
+"src/main.ml" 51 917 919 "src/main.ml" 51 917 944
+type(
+  string -> Toml.Value.table
+)
+ident(
+  ext_ref Toml.Parser.from_filename
+)
+"src/main.ml" 51 917 945 "src/main.ml" 51 917 958
+type(
+  string
+)
+"src/main.ml" 51 917 919 "src/main.ml" 51 917 958
+call(
+  stack
+)
+type(
+  Toml.Value.table
+)
+"src/main.ml" 52 959 961 "src/main.ml" 52 959 963
+type(
+  Toml.Value.table -> (Toml.Value.table -> config) -> config
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/main.ml" 52 959 964 "src/main.ml" 52 959 978
+type(
+  Toml.Value.table -> config
+)
+ident(
+  int_ref toml_to_config "src/main.ml" 33 536 540 "src/main.ml" 33 536 554
+)
+"src/main.ml" 51 917 919 "src/main.ml" 52 959 978
+call(
+  tail
+)
+type(
+  config
+)
+"src/main.ml" 50 897 912 "src/main.ml" 52 959 978
+type(
+  unit -> config
+)
+"src/main.ml" 54 980 984 "src/main.ml" 54 980 991
+type(
+  string -> string option -> unit
+)
+ident(
+  def print_s "src/main.ml" 59 1101 1101 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 54 980 992 "src/main.ml" 54 980 996
+type(
+  string
+)
+ident(
+  def name "src/main.ml" 54 980 997 "src/main.ml" 57 1063 1099
+)
+"src/main.ml" 54 980 997 "src/main.ml" 54 980 1002
+type(
+  string option
+)
+ident(
+  def value "src/main.ml" 55 1005 1007 "src/main.ml" 57 1063 1099
+)
+"src/main.ml" 55 1005 1013 "src/main.ml" 55 1005 1018
+type(
+  string option
+)
+ident(
+  int_ref value "src/main.ml" 54 980 997 "src/main.ml" 54 980 1002
+)
+"src/main.ml" 56 1024 1033 "src/main.ml" 56 1024 1034
+type(
+  string
+)
+ident(
+  def x "src/main.ml" 56 1024 1038 "src/main.ml" 56 1024 1062
+)
+"src/main.ml" 56 1024 1028 "src/main.ml" 56 1024 1034
+type(
+  string option
+)
+"src/main.ml" 56 1024 1038 "src/main.ml" 56 1024 1044
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"src/main.ml" 56 1024 1045 "src/main.ml" 56 1024 1055
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"src/main.ml" 56 1024 1056 "src/main.ml" 56 1024 1060
+type(
+  string
+)
+ident(
+  int_ref name "src/main.ml" 54 980 992 "src/main.ml" 54 980 996
+)
+"src/main.ml" 56 1024 1061 "src/main.ml" 56 1024 1062
+type(
+  string
+)
+ident(
+  int_ref x "src/main.ml" 56 1024 1033 "src/main.ml" 56 1024 1034
+)
+"src/main.ml" 56 1024 1038 "src/main.ml" 56 1024 1062
+call(
+  tail
+)
+type(
+  unit
+)
+"src/main.ml" 57 1063 1067 "src/main.ml" 57 1063 1071
+type(
+  string option
+)
+"src/main.ml" 57 1063 1075 "src/main.ml" 57 1063 1081
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"src/main.ml" 57 1063 1082 "src/main.ml" 57 1063 1094
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/main.ml" 57 1063 1095 "src/main.ml" 57 1063 1099
+type(
+  string
+)
+ident(
+  int_ref name "src/main.ml" 54 980 992 "src/main.ml" 54 980 996
+)
+"src/main.ml" 57 1063 1075 "src/main.ml" 57 1063 1099
+call(
+  tail
+)
+type(
+  unit
+)
+"src/main.ml" 55 1005 1007 "src/main.ml" 57 1063 1099
+type(
+  unit
+)
+"src/main.ml" 54 980 997 "src/main.ml" 57 1063 1099
+type(
+  string option -> unit
+)
+"src/main.ml" 54 980 992 "src/main.ml" 57 1063 1099
+type(
+  string -> string option -> unit
+)
+"src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+type(
+  string -> int option -> unit
+)
+ident(
+  def print_i "src/main.ml" 67 1248 1248 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 59 1101 1113 "src/main.ml" 59 1101 1117
+type(
+  string
+)
+ident(
+  def name "src/main.ml" 59 1101 1118 "src/main.ml" 62 1184 1220
+)
+"src/main.ml" 59 1101 1118 "src/main.ml" 59 1101 1123
+type(
+  int option
+)
+ident(
+  def value "src/main.ml" 60 1126 1128 "src/main.ml" 62 1184 1220
+)
+"src/main.ml" 60 1126 1134 "src/main.ml" 60 1126 1139
+type(
+  int option
+)
+ident(
+  int_ref value "src/main.ml" 59 1101 1118 "src/main.ml" 59 1101 1123
+)
+"src/main.ml" 61 1145 1154 "src/main.ml" 61 1145 1155
+type(
+  int
+)
+ident(
+  def x "src/main.ml" 61 1145 1159 "src/main.ml" 61 1145 1183
+)
+"src/main.ml" 61 1145 1149 "src/main.ml" 61 1145 1155
+type(
+  int option
+)
+"src/main.ml" 61 1145 1159 "src/main.ml" 61 1145 1165
+type(
+  (string -> int -> unit, out_channel, unit) format -> string -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"src/main.ml" 61 1145 1166 "src/main.ml" 61 1145 1176
+type(
+  (string -> int -> unit, out_channel, unit) format
+)
+"src/main.ml" 61 1145 1177 "src/main.ml" 61 1145 1181
+type(
+  string
+)
+ident(
+  int_ref name "src/main.ml" 59 1101 1113 "src/main.ml" 59 1101 1117
+)
+"src/main.ml" 61 1145 1182 "src/main.ml" 61 1145 1183
+type(
+  int
+)
+ident(
+  int_ref x "src/main.ml" 61 1145 1154 "src/main.ml" 61 1145 1155
+)
+"src/main.ml" 61 1145 1159 "src/main.ml" 61 1145 1183
+call(
+  tail
+)
+type(
+  unit
+)
+"src/main.ml" 62 1184 1188 "src/main.ml" 62 1184 1192
+type(
+  int option
+)
+"src/main.ml" 62 1184 1196 "src/main.ml" 62 1184 1202
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"src/main.ml" 62 1184 1203 "src/main.ml" 62 1184 1215
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/main.ml" 62 1184 1216 "src/main.ml" 62 1184 1220
+type(
+  string
+)
+ident(
+  int_ref name "src/main.ml" 59 1101 1113 "src/main.ml" 59 1101 1117
+)
+"src/main.ml" 62 1184 1196 "src/main.ml" 62 1184 1220
+call(
+  tail
+)
+type(
+  unit
+)
+"src/main.ml" 60 1126 1128 "src/main.ml" 62 1184 1220
+type(
+  unit
+)
+"src/main.ml" 59 1101 1118 "src/main.ml" 62 1184 1220
+type(
+  int option -> unit
+)
+"src/main.ml" 59 1101 1113 "src/main.ml" 62 1184 1220
+type(
+  string -> int option -> unit
+)
+"src/main.ml" 67 1248 1252 "src/main.ml" 67 1248 1256
+type(
+  unit
+)
+ident(
+  def main "src/main.ml" 77 1554 1586 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+type(
+  config
+)
+ident(
+  def config "src/main.ml" 69 1291 1293 "src/main.ml" 77 1554 1585
+)
+"src/main.ml" 68 1259 1274 "src/main.ml" 68 1259 1284
+type(
+  unit -> config
+)
+ident(
+  int_ref get_config "src/main.ml" 50 897 901 "src/main.ml" 50 897 911
+)
+"src/main.ml" 68 1259 1285 "src/main.ml" 68 1259 1287
+type(
+  unit
+)
+"src/main.ml" 68 1259 1274 "src/main.ml" 68 1259 1287
+call(
+  stack
+)
+type(
+  config
+)
+"src/main.ml" 69 1291 1293 "src/main.ml" 69 1291 1300
+type(
+  string -> string option -> unit
+)
+ident(
+  int_ref print_s "src/main.ml" 54 980 984 "src/main.ml" 54 980 991
+)
+"src/main.ml" 69 1291 1301 "src/main.ml" 69 1291 1307
+type(
+  string
+)
+"src/main.ml" 69 1291 1308 "src/main.ml" 69 1291 1314
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 69 1291 1308 "src/main.ml" 69 1291 1319
+type(
+  string option
+)
+"src/main.ml" 69 1291 1293 "src/main.ml" 69 1291 1319
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 70 1321 1323 "src/main.ml" 70 1321 1330
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 70 1321 1331 "src/main.ml" 70 1321 1336
+type(
+  string
+)
+"src/main.ml" 70 1321 1337 "src/main.ml" 70 1321 1343
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 70 1321 1337 "src/main.ml" 70 1321 1348
+type(
+  days
+)
+"src/main.ml" 70 1321 1337 "src/main.ml" 70 1321 1354
+type(
+  int option
+)
+"src/main.ml" 70 1321 1323 "src/main.ml" 70 1321 1354
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 71 1356 1358 "src/main.ml" 71 1356 1365
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 71 1356 1366 "src/main.ml" 71 1356 1371
+type(
+  string
+)
+"src/main.ml" 71 1356 1372 "src/main.ml" 71 1356 1378
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 71 1356 1372 "src/main.ml" 71 1356 1383
+type(
+  days
+)
+"src/main.ml" 71 1356 1372 "src/main.ml" 71 1356 1387
+type(
+  int option
+)
+"src/main.ml" 71 1356 1358 "src/main.ml" 71 1356 1387
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 72 1389 1391 "src/main.ml" 72 1389 1398
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 72 1389 1399 "src/main.ml" 72 1389 1404
+type(
+  string
+)
+"src/main.ml" 72 1389 1405 "src/main.ml" 72 1389 1411
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 72 1389 1405 "src/main.ml" 72 1389 1416
+type(
+  days
+)
+"src/main.ml" 72 1389 1405 "src/main.ml" 72 1389 1420
+type(
+  int option
+)
+"src/main.ml" 72 1389 1391 "src/main.ml" 72 1389 1420
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 73 1422 1424 "src/main.ml" 73 1422 1431
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 73 1422 1432 "src/main.ml" 73 1422 1437
+type(
+  string
+)
+"src/main.ml" 73 1422 1438 "src/main.ml" 73 1422 1444
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 73 1422 1438 "src/main.ml" 73 1422 1449
+type(
+  days
+)
+"src/main.ml" 73 1422 1438 "src/main.ml" 73 1422 1453
+type(
+  int option
+)
+"src/main.ml" 73 1422 1424 "src/main.ml" 73 1422 1453
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 74 1455 1457 "src/main.ml" 74 1455 1464
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 74 1455 1465 "src/main.ml" 74 1455 1470
+type(
+  string
+)
+"src/main.ml" 74 1455 1471 "src/main.ml" 74 1455 1477
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 74 1455 1471 "src/main.ml" 74 1455 1482
+type(
+  days
+)
+"src/main.ml" 74 1455 1471 "src/main.ml" 74 1455 1486
+type(
+  int option
+)
+"src/main.ml" 74 1455 1457 "src/main.ml" 74 1455 1486
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 75 1488 1490 "src/main.ml" 75 1488 1497
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 75 1488 1498 "src/main.ml" 75 1488 1503
+type(
+  string
+)
+"src/main.ml" 75 1488 1504 "src/main.ml" 75 1488 1510
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 75 1488 1504 "src/main.ml" 75 1488 1515
+type(
+  days
+)
+"src/main.ml" 75 1488 1504 "src/main.ml" 75 1488 1519
+type(
+  int option
+)
+"src/main.ml" 75 1488 1490 "src/main.ml" 75 1488 1519
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 76 1521 1523 "src/main.ml" 76 1521 1530
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 76 1521 1531 "src/main.ml" 76 1521 1536
+type(
+  string
+)
+"src/main.ml" 76 1521 1537 "src/main.ml" 76 1521 1543
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 76 1521 1537 "src/main.ml" 76 1521 1548
+type(
+  days
+)
+"src/main.ml" 76 1521 1537 "src/main.ml" 76 1521 1552
+type(
+  int option
+)
+"src/main.ml" 76 1521 1523 "src/main.ml" 76 1521 1552
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 77 1554 1556 "src/main.ml" 77 1554 1563
+type(
+  string -> int option -> unit
+)
+ident(
+  int_ref print_i "src/main.ml" 59 1101 1105 "src/main.ml" 59 1101 1112
+)
+"src/main.ml" 77 1554 1564 "src/main.ml" 77 1554 1569
+type(
+  string
+)
+"src/main.ml" 77 1554 1570 "src/main.ml" 77 1554 1576
+type(
+  config
+)
+ident(
+  int_ref config "src/main.ml" 68 1259 1265 "src/main.ml" 68 1259 1271
+)
+"src/main.ml" 77 1554 1570 "src/main.ml" 77 1554 1581
+type(
+  days
+)
+"src/main.ml" 77 1554 1570 "src/main.ml" 77 1554 1585
+type(
+  int option
+)
+"src/main.ml" 77 1554 1556 "src/main.ml" 77 1554 1585
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 76 1521 1523 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 75 1488 1490 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 74 1455 1457 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 73 1422 1424 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 72 1389 1391 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 71 1356 1358 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 70 1321 1323 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 69 1291 1293 "src/main.ml" 77 1554 1585
+type(
+  unit
+)
+"src/main.ml" 68 1259 1261 "src/main.ml" 77 1554 1586
+type(
+  unit
+)

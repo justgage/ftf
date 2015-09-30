@@ -1,0 +1,5 @@
+"Rule: ocaml: ml -> cmo & cmi (%=src/main )": "\024\182\027\183c\166\154\232\140\224\221\015\222\160\176\156"
+"Rule: ocaml: cmx* & o* -> native (%=src/main )": "\005Q\253U\144\240k\016>*\2231\007\248\006&"
+"Rule: ocaml dependencies ml (%=src/main )": "\199\031v\136\148\026\168\254\244\188\153\161g\012\025\216"
+"Rule: ocaml: ml & cmi -> cmx & o (%=src/main )": " \031\018\001\188}I\0240\153sj\205\216\155k"
+"Resource: /home/justgage/Dropbox/code/ocaml/ftf/src/main.ml": "^/\187c\b\148\175N[;\184\018\016y\016\030"
