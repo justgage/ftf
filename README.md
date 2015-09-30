@@ -38,7 +38,8 @@ Hours: 0/3
 ```
 
 Or to be faster:
-``
+
+```
 $ ftf add "make ftf not a lie" 1 "Because I need an easy way to prioritise" today 3
 
 _______Task added______
@@ -57,27 +58,9 @@ Hours are tangible, it's easier to estimate that any task should be 1 hour or 2 
 Due dates are great but they don't help you as your schedule fills up. What happens if your teacher (or boss) decides everything should all be due the same day? It sure would be nice to spread that out a little bit! Well using the affore mentioned hours and the amount of time that it usually takes you to got these "story-hours" done then you can determine when things should be done. 
 
 first you must set up your hours
-```
-$ ftf help hours
 
-The hours that you can or wish to complete in a day. These can be set different for
-different days like so:
-
-$ ftf set hours 5
-
-setting all days to 5 hours of work
-
-$ ftf set monday 2
-
-setting monday to 5 hours of work
-
-sun: 0 hours
-mon: 2 hours
-tue: 5 hours
-wed: 5 hours
-thu: 5 hours
-fri: 5 hours
-sat: 0 hours
+```toml
+max = 12
 ```
 
 These will set the `~/.ftf.toml` file.
@@ -100,8 +83,8 @@ Another major issue with todos is that it's all to easy to just dump some big pr
 Many times To-Do lists grow so big it's hard to find all the tasks that you are neglecting. `ftf` tries to solve this by providing a very focused view of tasks and what days to work on them. As well as atomaticly spreading work over several days.
 
 # Inspiration
-I've drawn Inspiration from multiple places:
-- 7 Habbits of Highly effective people
+
+7 Habbits of Highly effective people
 
 # WARNING: Below here, bellow here it's all a lie
 This is being developed using a sort of "Readme driven development", meaning everything below this line is currently a lie, but won't be in the future.
@@ -109,16 +92,14 @@ This is being developed using a sort of "Readme driven development", meaning eve
 # TOML configuration
 
 Example config
-```
-[config]
+
+```toml
 
 name = "Gage"
 
-[config.hours]
-max-per-day = 10
-min-per-day = 5
+# hours
+max = 10
 
-# max,min
 sun = 5
 mon = 2
 tue = 5
@@ -140,10 +121,10 @@ due-date   = "2015-90-28"
 start-date = "2015-90-28"
 hours_till = 3
 hours_done = 1
+category = "ftf"
 
 [[Task]]
 # ...moar...
-
 ```
 
 #TOML History
